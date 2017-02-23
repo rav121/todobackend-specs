@@ -1,10 +1,10 @@
 FROM ubuntu:trusty
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+MAINTAINER rav121 <adina.rav121gmail.com>
 
 # Prevent dpkg errors
 ENV TERM=xterm-256color
 
-# Set mirrors to NZ
+# change mirrors to NZ
 # RUN sed -i "s/http:\/\/archive./http:\/\/nz.archive./g" /etc/apt/sources.list 
 
 # Install node.js
